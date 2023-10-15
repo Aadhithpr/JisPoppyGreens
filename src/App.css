@@ -31,7 +31,8 @@
   mix-blend-mode: overlay;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to right, rgb(44, 207, 79),  rgb(25, 117, 45));
+  background: rgb(47,189,56);
+background: linear-gradient(90deg, rgba(47,189,56,1) 0%, rgba(61,212,41,1) 35%, rgba(55,212,61,1) 35%, rgba(83,224,182,1) 100%);
   gap: 2rem;
   overflow: hidden;
   position: absolute;
