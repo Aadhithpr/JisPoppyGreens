@@ -1,0 +1,45 @@
+:root {
+--ForestGreen: #243407;
+--DarkGreen: #22301E;
+--DarkOliveGreen: #556B2F;
+--PastelGreen: #77dd77;
+--PaleGreen: #98fb98;
+--Black: #0000;
+--Cream: #FFFDD0;
+--Mint: #3eb489;
+--LightGreen: #68f268;
+--EarthBrown: #3F3635;
+--StarDust: #ddd3ae;
+}
+
+@font-face {
+  font-family: "Heading";
+  src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Descripts";
+  src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: "para";
+  src: url(./fonts/MartelSans-Regular.ttf);
+}
+
+.App {
+  mix-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, rgb(44, 207, 79),  rgb(25, 117, 45));
+  gap: 2rem;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+

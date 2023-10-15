@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;   
+    z-index: 1;
+}
+
+.header-menu{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-family: 'Heading';
+    color: var(--Cream);
+    font-size: x-large;
+}
+
+.header-menu > li:hover{
+    cursor: pointer;
+    color: var(--PastelGreen);
+}
+
+@media  screen and (max-width: 768px){
+    .header {
+        display: flex;
+        justify-content: space-between; /* Adjust this for your design */
+        padding: 0.5rem; /* Adjust the padding as needed */
+    }
+
+    .header-menu {
+        flex-direction: column; /* Stack menu items vertically */
+        gap: 1rem; /* Adjust the gap between menu items */
+    }
+    .header > :nth-child(2){
+        position: fixed;
+        right: 1rem;
+        z-index: 99;
+    }
+
+    .header-menu{
+        flex-direction: column;
+        padding: 2rem;
+        margin: 2rem;
+    }
+
+}
