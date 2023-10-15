@@ -30,7 +30,7 @@
     .home {
         flex-direction: column; 
         align-items: center; 
-        margin-left: -70px;
+        margin-left: -80px;
         width: 380px;
         height: 200px;
     }
